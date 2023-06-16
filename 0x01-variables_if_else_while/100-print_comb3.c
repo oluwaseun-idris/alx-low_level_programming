@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point of the program for double digit
- * 
+ *
  * Return: 0 (success)
  */
 int main(void)
