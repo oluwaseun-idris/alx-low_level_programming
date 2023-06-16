@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * main - Program for counting single digits
+ * main -Entry point Program for counting single digits
  *
  * Returns: 0 (success)
  */
