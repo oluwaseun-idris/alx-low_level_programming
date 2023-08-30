@@ -18,5 +18,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1); /*Anything raise to power 0 is 1*/
 	}
-	return (x * _pow_recursion(x, y -1)); /*x raise to power y*/
+	return (x * _pow_recursion(x, y - 1)); /*x raise to power y*/
 }
