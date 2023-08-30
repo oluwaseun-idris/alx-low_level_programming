@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts_recursion: A function that prints a string
- * @s: character to be treated
+ * _puts_recursion - A function that prints a string followed by a new line
+ * @s: Pointer to the string to be printed out
  * return -success
  */
 
