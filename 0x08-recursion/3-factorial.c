@@ -16,5 +16,5 @@ int factorial(int n) /*returns value of factorial*/
 	{
 		return (1); /*factorial of 0 is 1*/
 	}
-	return (n * factorial(n - 1));
+	return (n * factorial(n - 1)); /*return factorial value*/
 }
