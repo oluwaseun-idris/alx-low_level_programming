@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion: A function that prints a string
- * @*s: characterto be treated
+ * @s: character to be treated
  * return -success
  */
 
