@@ -3,6 +3,7 @@
 /**
  * is_prime_recursive: Check if an integer is a prime number.
  * @n: The integer to be checked.
+ * @divisor: integer divisor
  *
  * Return: 1 if @n is prime, 0 otherwise.
  */
@@ -33,10 +34,9 @@ int is_prime_recursive(int n, int divisor)
 
 int is_prime_number(int n)
 {
-    if (n <= 1)
+	if (n <= 1)
     {
 	    return (0);
     }
-
-    return (is_prime_recursive(n, n - 1));
+	return (is_prime_recursive(n, n - 1));
 }
